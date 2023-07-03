@@ -28,7 +28,7 @@ async function createPokemonCard() {
 
     try {
         const res = await fetch(APIUrl, config);
-        const data = res.data
+        const data = await res.json()
         console.log(data)
     } catch (error) {
         console.log(error);
