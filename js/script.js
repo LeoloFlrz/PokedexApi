@@ -1,4 +1,4 @@
-const APIUrl = "https://pokeapi.co/api/v2/pokemon/1";
+const APIUrl = "https://pokeapi.co/api/v2/pokemon/";
 
 const poke_container = document.getElementById("poke-container");
 const pokemon_count = 150;
